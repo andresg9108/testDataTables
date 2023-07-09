@@ -1,0 +1,16 @@
+{
+  "name": "testdatatables",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrés González",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.3.0",
+    "datatables.net-dt": "^1.13.5",
+    "jquery": "^3.7.0"
+  }
+}

@@ -1,0 +1,59 @@
+:root{
+  --primary-color: #343a40;
+  --secondary-color: #6c757d;
+  --background-color: #212529;
+  --text-color: #ffffff;
+}
+
+/* Dark theme */
+:root.dark-theme {
+  --primary-color: #343a40;
+  --secondary-color: #6c757d;
+  --background-color: #212529;
+  --text-color: #ffffff;
+}
+
+/* Light theme */
+:root.light-theme {
+  --primary-color: #ffffff;
+  --secondary-color: #f8f9fa;
+  --background-color: #f8f9fa;
+  --text-color: #212529;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.centered{
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+/**/
+/* Data Tables */
+/**/
+
+.dataTables_length {
+}
+.dataTables_length select {
+  margin: 0px 10px !important;
+  color: var(--text-color) !important;
+  background-color: var(--background-color) !important;
+}
+.dataTables_length label {
+  font-weight: bold !important;
+}
+
+.dataTables_filter {
+}
+.dataTables_filter input {
+  margin-left: 10px !important;
+}
+
+.dataTables_paginate .paginate_button {
+}
+.dataTables_paginate .current {
+  background-color: var(--secondary-color) !important;
+}
