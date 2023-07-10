@@ -44,10 +44,10 @@ document.addEventListener('DOMContentLoaded', (e) => {
 		    ],
 		    language: {
 		        lengthMenu: "Mostrar _MENU_ registros por página",
-		        zeroRecords: "Ningún usuario encontrado",
-		        info: "Mostrando de _START_ a _END_ de un total de _TOTAL_ registros",
-		        infoEmpty: "Ningún usuario encontrado",
-		        infoFiltered: "(filtrados desde _MAX_ registros totales)",
+		        zeroRecords: "No hay resultados",
+		        info: "De _START_ a _END_ - _TOTAL_ resultados",
+		        infoEmpty: "No hay resultados",
+		        infoFiltered: "(_MAX_ registros totales)",
 		        search: "Buscar:",
 		        loadingRecords: "Cargando...",
 		        paginate: {
