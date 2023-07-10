@@ -1,0 +1,63 @@
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,user-scalable=no">
+
+    <title>Server side</title>
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./node_modules/datatables.net-dt/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="./src/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <br><br>
+
+      <button onclick="location.href = 'index.html'" class="btn btn-primary">
+        Back
+      </button>
+       <button onclick="theme()" class="btn btn-secondary">
+        Theme
+      </button>
+      <br><br>
+
+      <h2>Server side</h2>
+      <br><br>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <table id="myTable" class="table table-striped table-dark">
+            <thead>
+              <tr>
+                 <th>ID</th>
+                 <th>Name</th>
+                 <th>Email</th>
+                 <th>City</th>
+                 <th>Company</th>
+                 <th>Phone</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                 <th>ID</th>
+                 <th>Name</th>
+                 <th>Email</th>
+                 <th>City</th>
+                 <th>Company</th>
+                 <th>Phone</th>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="./src/main.js"></script>
+    <script src="./src/serverSide/app.js"></script>
+  </body>
+</html>
